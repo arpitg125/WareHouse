@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+h1 {
+    color: #333;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+.warehouse-list {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+.warehouse-list input {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+.warehouse-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+.warehouse-list li {
+    margin: 10px 0;
+}
+  
+.warehouse-list a {
+    text-decoration: none;
+    color: #007bff;
+}
+  
+.warehouse-list a:hover {
+    text-decoration: underline;
+}
+.warehouse-details {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.warehouse-details button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.warehouse-details button:hover {
+    background-color: #0056b3;
+  }
+.warehouse-details input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+span{
+    color: black;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex: 1 0 calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .card p {
+    margin: 0;
+  }
+  
+  .card a {
+    /* color: #000; */
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+ .a1{
+    margin-right: 7px;
+ } 
+.warehouse-details div {
+    margin-bottom: 10px;
+}
+  
+.warehouse-details h3 {
+    margin-top: 0;}
+  
+ 
+  @media (max-width: 768px) 
+  {.warehouse-list input,.warehouse-details input {
+      width: 100%;
+    }
+.warehouse-details button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+}
+  
